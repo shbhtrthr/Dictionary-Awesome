@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.dictionaryawesome.StartMenuActivity">
+
+    <TextView
+        android:text="@string/dictionary_awesome_app"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHighlight="@color/colorAccent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+<Button
+    android:text="Play the game"
+    android:textSize="22sp"
+    android:layout_marginTop="20sp"
+    android:textColor="@android:color/holo_red_dark"
+    android:onClick="playTheGameClick"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
